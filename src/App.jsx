@@ -28,6 +28,15 @@ export function App() {
           </p>
         </aside>
 
+        <div className='absolute top-0 right-0 z-10 p-1'>
+          <img src='/hammer.gif' alt='' className='size-16 -rotate-[23deg]' />
+        </div>
+
+        <div className='absolute top-[420px] right-28 z-20 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform duration-100'>
+          <img src='/folder.png' alt='' className='w-20 h-16' />
+          <p>works</p>
+        </div>
+
         <div className='absolute inset-0 flex items-center justify-start pb-24 pl-44 z-10'>
           <div className='text-center'>
             <p className='text-red-500 font-semibold text-7xl'>

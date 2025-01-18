@@ -1,0 +1,8 @@
+export { Footer } from './Footer'
+export { Description } from './Description'
+export { Background } from './Background'
+export { Hammer } from './Hammer'
+export { Works } from './Works'
+export { CV } from './CV'
+export { CodeQR } from './CodeQR'
+export { IdentityBanner } from './IdentityBanner'

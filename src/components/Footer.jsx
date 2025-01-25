@@ -1,8 +1,18 @@
 import Marquee from 'react-fast-marquee'
+import grainedImage from '/grained.png'
 
 export const Footer = () => {
   return (
-    <footer className='fixed bottom-0 z-20 left-0 right-0 border-t-[3px] border-red-500'>
+    <footer className='fixed bottom-0 z-20 left-0 right-0 border-t-[3px] border-black bg-red-500'>
+      <div
+        className='absolute inset-0 pointer-events-none z-0'
+        style={{
+          backgroundImage: `url(${grainedImage})`,
+          backgroundRepeat: 'repeat',
+          opacity: 0.15,
+          mixBlendMode: 'multiply',
+        }}
+      />
       <Marquee
         speed={75}
         gradient={false}

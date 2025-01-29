@@ -16,6 +16,7 @@ import rainbow from '/cloud-rainbow-hand-drawn.png'
 import cloud from '/cloud-hand-drawn.png'
 import twoClouds from '/cloud-2-hand-drawn.webp'
 import { RetroOSModal } from './components/RetroModal'
+import { FloatingIcon } from './components/FloatingIcon'
 
 export function App() {
   const [isModalOpen, setIsModalOpen] = useState(true)
@@ -29,6 +30,8 @@ export function App() {
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
         />
+
+        <FloatingIcon onClick={() => setIsModalOpen(true)} />
 
         <img
           src={cloud}
